@@ -2,6 +2,8 @@
 #include <stack>
 using namespace std;
 void printArray(int*, int);
+// https://www.nowcoder.com/question/next?pid=21283868&qid=830860&tid=31934642
+// 腾讯2020校园招聘-后台
 // record: 一开始只通过60%测试样例, 对比其他人的代码后发现是边界没有处理,
 // 对于相同高度的楼一样按看不到处理
 void getResult(int* a, int* b, int n){
