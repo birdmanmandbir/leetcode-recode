@@ -2,7 +2,8 @@
 #include <stack>
 using namespace std;
 void printArray(int*, int);
-
+// record: 一开始只通过60%测试样例, 对比其他人的代码后发现是边界没有处理,
+// 对于相同高度的楼一样按看不到处理
 void getResult(int* a, int* b, int n){
     // 自顶向下递增, 应从右往左看
     int front[n];
@@ -39,7 +40,7 @@ void printArray(int* a, int n){
 int main(){
     int n;
     cin>>n;
-    int a[10001];
+    int a[n];
     for(int i=0;i<n;i++){
         cin>>a[i];
     }
