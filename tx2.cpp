@@ -11,7 +11,7 @@ void getResult(int* a, int* b, int n){
     stack<int> sIncrease;
     for(int i=n-1;i>=0;i--){
         back[i]=sIncrease.size();
-        while(!sIncrease.empty() && sIncrease.top()<a[i]){
+        while(!sIncrease.empty() && sIncrease.top()<=a[i]){
             sIncrease.pop();
         }
         sIncrease.push(a[i]);
@@ -19,7 +19,7 @@ void getResult(int* a, int* b, int n){
     stack<int> sDecrease;
     for(int i=0;i<n;i++){
         front[i]=sDecrease.size();
-        while(!sDecrease.empty() && sDecrease.top()<a[i]){
+        while(!sDecrease.empty() && sDecrease.top()<=a[i]){
             sDecrease.pop();
         }
         sDecrease.push(a[i]);
