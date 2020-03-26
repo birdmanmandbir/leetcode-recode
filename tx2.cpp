@@ -1,0 +1,53 @@
+#include <iostream>
+#include <stack>
+using namespace std;
+void printArray(int*, int);
+
+void getResult(int* a, int* b, int n){
+    // 自顶向下递增, 应从右往左看
+    int front[n];
+    int back[n];
+    stack<int> sIncrease;
+    for(int i=n-1;i>=0;i--){
+        back[i]=sIncrease.size();
+        while(!sIncrease.empty() && sIncrease.top()<a[i]){
+            sIncrease.pop();
+        }
+        sIncrease.push(a[i]);
+    }
+    stack<int> sDecrease;
+    for(int i=0;i<n;i++){
+        front[i]=sDecrease.size();
+        while(!sDecrease.empty() && sDecrease.top()<a[i]){
+            sDecrease.pop();
+        }
+        sDecrease.push(a[i]);
+    }
+    // calculate result
+    for(int i=0;i<n;i++){
+        b[i]=front[i]+1+back[i];
+    }
+}
+
+void printArray(int* a, int n){
+    for(int i=0;i<n;i++){
+        cout<<a[i]<<" ";
+    }
+    cout<<endl;
+}
+
+int main(){
+    int n;
+    cin>>n;
+    int a[10001];
+    for(int i=0;i<n;i++){
+        cin>>a[i];
+    }
+    // for(int building:a){
+    //     cin>>building;
+    // }
+    int b[n]; // result
+    getResult(a,b,n);
+    printArray(b, n);
+
+}
