@@ -32,3 +32,5 @@ https://leetcode-cn.com/problems/number-of-atoms/ 应该是递归或者递归模
 
 ## Notes
 n&(n-1)==0 优先计算等号, 需要在左边加括号才能有预期行为
+
+递归时参数用形参(引用), 不要用实参, 空间时间占用更小.

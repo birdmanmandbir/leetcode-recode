@@ -3,7 +3,8 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-// 由于字符数量有限, 可以通过asc映射到数组来求解.
+// 由于字符数量有限, 可以通过asc映射到数组来求解, 比hashmap快4倍
+// https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/solution/wu-zhong-fu-zi-fu-de-zui-chang-zi-chuan-cshi-xian-/
 int lengthOfLongestSubstring(string s)
 {
     if (s.size() <= 1)

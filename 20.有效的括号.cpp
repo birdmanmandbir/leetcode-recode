@@ -30,6 +30,7 @@ public:
         stack<char> stk;
         int i = 0;
         int n = s.size();
+        if(n%2!=0)return false;
         while (i < n)
         {
             if (s[i] == '{' || s[i] == '(' || s[i] == '[')
