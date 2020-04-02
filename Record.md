@@ -28,8 +28,6 @@ https://leetcode-cn.com/problems/number-of-atoms/ 应该是递归或者递归模
 
 岛屿数量-并查集
 
-11 旋转数组中的最小数字 - 二分
-
 ## Notes
 n&(n-1)==0 优先计算等号, 需要在左边加括号才能有预期行为
 
