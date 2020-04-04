@@ -29,8 +29,15 @@ https://leetcode-cn.com/problems/number-of-atoms/ 应该是递归或者递归模
 岛屿数量-并查集
 
 nonRecurPostOrderV2(2个栈实现)
+https://www.geeksforgeeks.org/iterative-postorder-traversal-using-stack/
 
+
+lc4 两个有序数组的中位数
+https://leetcode-cn.com/problems/median-of-two-sorted-arrays/
 ## Notes
 n&(n-1)==0 优先计算等号, 需要在左边加括号才能有预期行为
 
 递归时参数用形参(引用), 不要用实参, 空间时间占用更小.
+
+[尾递归](https://www.zhihu.com/question/20761771)
+
