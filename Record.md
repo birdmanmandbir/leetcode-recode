@@ -45,3 +45,19 @@ n&(n-1)==0 优先计算等号, 需要在左边加括号才能有预期行为
 
 碰到子序列问题可以考虑先调整整个数列， 因为子序列一般不受原顺序影响
 - lc5376 https://leetcode-cn.com/problems/minimum-subsequence-in-non-increasing-order/solution/c-mo-ni-jiu-wan-shi-liao-by-time-limit/
+
+
+
+vector.push_back 放进去的是参数的拷贝，这个特性很重要
+
+
+>vector::void push_back (const value_type& val);
+>
+>vector::void push_back (value_type&& val);
+>
+>该函数将一个新的元素加到vector的最后面，位置为当前最后一个元素的下一个元素，新的元素的值是val的拷贝（或者是移动拷贝）
+>
+>————————————————
+>
+>版权声明：本文为CSDN博主「稚枭天卓」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
+>原文链接：https://blog.csdn.net/u013630349/java/article/details/46853297
