@@ -34,6 +34,8 @@ https://www.geeksforgeeks.org/iterative-postorder-traversal-using-stack/
 
 lc4 两个有序数组的中位数
 https://leetcode-cn.com/problems/median-of-two-sorted-arrays/
+
+lc50 快速幂算法 - 递归
 ## Notes
 n&(n-1)==0 优先计算等号, 需要在左边加括号才能有预期行为
 
@@ -41,3 +43,5 @@ n&(n-1)==0 优先计算等号, 需要在左边加括号才能有预期行为
 
 [尾递归](https://www.zhihu.com/question/20761771)
 
+碰到子序列问题可以考虑先调整整个数列， 因为子序列一般不受原顺序影响
+- lc5376 https://leetcode-cn.com/problems/minimum-subsequence-in-non-increasing-order/solution/c-mo-ni-jiu-wan-shi-liao-by-time-limit/
