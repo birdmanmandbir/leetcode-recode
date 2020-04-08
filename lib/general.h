@@ -2,6 +2,10 @@
 #include <string>
 #include <vector>
 #include <math.h>
+#include <unordered_map>
+#include <stdlib.h>
+#include <string.h>
+#include <iostream>
 using namespace std;
 
 struct TreeNode {
