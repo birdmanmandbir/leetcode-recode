@@ -24,6 +24,10 @@ https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/soluti
 约瑟夫环， 仍然不太懂
 
 ## TODO
+
+- [X] lc38
+- [ ] 小顶堆pop push `lc215/mySelf.cpp`     `./MaxHeap.cpp`
+
 https://leetcode-cn.com/problems/number-of-atoms/ 应该是递归或者递归模拟栈, 大写字母是元素开头, 数字是结尾
 
 岛屿数量-并查集
@@ -66,5 +70,3 @@ vector.push_back 放进去的是参数的拷贝，这个特性很重要
 >
 >版权声明：本文为CSDN博主「稚枭天卓」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
 >原文链接：https://blog.csdn.net/u013630349/java/article/details/46853297
-
-- [X] lc38
