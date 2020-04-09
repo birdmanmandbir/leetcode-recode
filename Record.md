@@ -27,6 +27,8 @@ https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/soluti
 
 - [X] lc38
 - [ ] 小顶堆pop push `lc215/mySelf.cpp`     `./MaxHeap.cpp`
+- [ ] lc111 深度优先+迭代 以及 宽度优先+迭代
+- [ ] jz30 解法2 和 3
 
 https://leetcode-cn.com/problems/number-of-atoms/ 应该是递归或者递归模拟栈, 大写字母是元素开头, 数字是结尾
 
