@@ -1,0 +1,143 @@
+Date : 2020-04-13 17:39:15
+Directory : e:\F_Backup\leetcode
+Total : 91 files,  3094 codes, 533 comments, 160 blanks, all 3787 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| C++      |         88 |      3,001 |        513 |        129 |      3,643 |
+| Markdown |          1 |         52 |          0 |         24 |         76 |
+| Java     |          1 |         33 |         11 |          4 |         48 |
+| Python   |          1 |          8 |          9 |          3 |         20 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                    | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                       |         91 |      3,094 |        533 |        160 |      3,787 |
+| STLLearn                                                |          2 |         15 |          0 |          0 |         15 |
+| jz11                                                    |          2 |         34 |          6 |          0 |         40 |
+| jz13                                                    |          1 |         33 |          2 |          3 |         38 |
+| jz22                                                    |          2 |         31 |         16 |          0 |         47 |
+| jz28                                                    |          2 |         49 |          2 |          3 |         54 |
+| jz54                                                    |          2 |         41 |          3 |          0 |         44 |
+| lc03.05                                                 |          2 |        103 |         19 |         13 |        135 |
+| lc1                                                     |          2 |         47 |          7 |          2 |         56 |
+| lc113                                                   |          3 |        152 |         30 |          3 |        185 |
+| lc2                                                     |          3 |        236 |         53 |         17 |        306 |
+| lc200                                                   |          1 |         63 |          4 |          3 |         70 |
+| lc206                                                   |          1 |         16 |         11 |          0 |         27 |
+| lc215                                                   |          2 |         62 |          5 |          2 |         69 |
+| lc3                                                     |          2 |         62 |         17 |          1 |         80 |
+| lc300                                                   |          2 |         64 |         33 |          4 |        101 |
+| lc347                                                   |          2 |         70 |          5 |          1 |         76 |
+| lc40                                                    |          4 |         87 |         10 |          4 |        101 |
+| lc494                                                   |          2 |         24 |          1 |          0 |         25 |
+| lc72                                                    |          1 |         30 |          5 |          0 |         35 |
+| lc887                                                   |          1 |         25 |         10 |          2 |         37 |
+| lib                                                     |          1 |         30 |          0 |          2 |         32 |
+| tencentInterview                                        |          1 |         14 |          1 |          0 |         15 |
+| tests                                                   |          4 |         55 |         12 |          6 |         73 |
+| tx                                                      |          2 |        106 |         10 |          3 |        119 |
+| 单调栈                                                     |          4 |        181 |         38 |         14 |        233 |
++---------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                | language | code       | comment    | blank      | total      |
++---------------------------------------------------------+----------+------------+------------+------------+------------+
+| e:\F_Backup\leetcode\1111.cpp                           | C++      |         34 |          2 |          1 |         37 |
+| e:\F_Backup\leetcode\1111noStack.cpp                    | C++      |         34 |          5 |          1 |         40 |
+| e:\F_Backup\leetcode\146.lru缓存机制.cpp                    | C++      |         46 |         10 |          5 |         61 |
+| e:\F_Backup\leetcode\19.删除链表的倒数第n个节点.cpp                | C++      |         48 |         15 |          1 |         64 |
+| e:\F_Backup\leetcode\20.有效的括号.cpp                       | C++      |         46 |          7 |          3 |         56 |
+| e:\F_Backup\leetcode\2pow.cpp                           | C++      |          8 |          0 |          0 |          8 |
+| e:\F_Backup\leetcode\35.搜索插入位置.cpp                      | C++      |         26 |         10 |          2 |         38 |
+| e:\F_Backup\leetcode\460LFUcache.cpp                    | C++      |         82 |         21 |          6 |        109 |
+| e:\F_Backup\leetcode\8.字符串转换整数-atoi.cpp                 | C++      |          5 |          7 |          4 |         16 |
+| e:\F_Backup\leetcode\MaxHeap.cpp                        | C++      |         40 |         21 |          1 |         62 |
+| e:\F_Backup\leetcode\Record.md                          | Markdown |         52 |          0 |         24 |         76 |
+| e:\F_Backup\leetcode\STLLearn\unorderedmapTest.cpp      | C++      |          4 |          0 |          0 |          4 |
+| e:\F_Backup\leetcode\STLLearn\vectortest.cpp            | C++      |         11 |          0 |          0 |         11 |
+| e:\F_Backup\leetcode\al4.8.py                           | Python   |          8 |          9 |          3 |         20 |
+| e:\F_Backup\leetcode\cpptest.cpp                        | C++      |         20 |          2 |          1 |         23 |
+| e:\F_Backup\leetcode\gyDeleteOldNumber.cpp              | C++      |         18 |          0 |          1 |         19 |
+| e:\F_Backup\leetcode\gyIsMatch.cpp                      | C++      |         31 |          0 |          0 |         31 |
+| e:\F_Backup\leetcode\gyReverseList.cpp                  | C++      |         24 |          0 |          3 |         27 |
+| e:\F_Backup\leetcode\jz01.07.cpp                        | C++      |         18 |          5 |          0 |         23 |
+| e:\F_Backup\leetcode\jz11\simpleone.cpp                 | C++      |         14 |          1 |          0 |         15 |
+| e:\F_Backup\leetcode\jz11\二分.cpp                        | C++      |         20 |          5 |          0 |         25 |
+| e:\F_Backup\leetcode\jz13\jz13.cpp                      | C++      |         33 |          2 |          3 |         38 |
+| e:\F_Backup\leetcode\jz22\2pointer.cpp                  | C++      |         18 |          8 |          0 |         26 |
+| e:\F_Backup\leetcode\jz22\bruteforce.cpp                | C++      |         13 |          8 |          0 |         21 |
+| e:\F_Backup\leetcode\jz24.cpp                           | C++      |         38 |          0 |          2 |         40 |
+| e:\F_Backup\leetcode\jz26.cpp                           | C++      |         27 |          7 |          0 |         34 |
+| e:\F_Backup\leetcode\jz28\jz28.cpp                      | C++      |         33 |          0 |          1 |         34 |
+| e:\F_Backup\leetcode\jz28\jz28recur.cpp                 | C++      |         16 |          2 |          2 |         20 |
+| e:\F_Backup\leetcode\jz29.cpp                           | C++      |         36 |          1 |          0 |         37 |
+| e:\F_Backup\leetcode\jz30.cpp                           | C++      |         35 |         10 |          5 |         50 |
+| e:\F_Backup\leetcode\jz32-2.cpp                         | C++      |         25 |         11 |          0 |         36 |
+| e:\F_Backup\leetcode\jz32.cpp                           | C++      |         20 |          9 |          0 |         29 |
+| e:\F_Backup\leetcode\jz54\54.inordertraversal.cpp       | C++      |         22 |          3 |          0 |         25 |
+| e:\F_Backup\leetcode\jz54\54.priorityqueue.cpp          | C++      |         19 |          0 |          0 |         19 |
+| e:\F_Backup\leetcode\lc03.05\lazyUpdate.cpp             | C++      |         48 |         11 |          6 |         65 |
+| e:\F_Backup\leetcode\lc03.05\lc03.05.cpp                | C++      |         55 |          8 |          7 |         70 |
+| e:\F_Backup\leetcode\lc111.cpp                          | C++      |         16 |         11 |          0 |         27 |
+| e:\F_Backup\leetcode\lc113\lc113.cpp                    | C++      |         63 |         10 |          1 |         74 |
+| e:\F_Backup\leetcode\lc113\nonRecur.cpp                 | C++      |         73 |         20 |          2 |         95 |
+| e:\F_Backup\leetcode\lc113\vectorTest.cpp               | C++      |         16 |          0 |          0 |         16 |
+| e:\F_Backup\leetcode\lc151.cpp                          | C++      |         46 |          0 |          0 |         46 |
+| e:\F_Backup\leetcode\lc1\1.hashmap.cpp                  | C++      |         27 |          0 |          0 |         27 |
+| e:\F_Backup\leetcode\lc1\1.两数之和.cpp                     | C++      |         20 |          7 |          2 |         29 |
+| e:\F_Backup\leetcode\lc200\NonRecursive_DFS.cpp         | C++      |         63 |          4 |          3 |         70 |
+| e:\F_Backup\leetcode\lc206\iterative.cpp                | C++      |         16 |         11 |          0 |         27 |
+| e:\F_Backup\leetcode\lc215\mySelf.cpp                   | C++      |         47 |          4 |          1 |         52 |
+| e:\F_Backup\leetcode\lc215\usestd.cpp                   | C++      |         15 |          1 |          1 |         17 |
+| e:\F_Backup\leetcode\lc22.cpp                           | C++      |         22 |          5 |          0 |         27 |
+| e:\F_Backup\leetcode\lc239.cpp                          | C++      |         27 |          6 |          0 |         33 |
+| e:\F_Backup\leetcode\lc26.cpp                           | C++      |         20 |          0 |          0 |         20 |
+| e:\F_Backup\leetcode\lc289.cpp                          | C++      |         55 |          0 |          0 |         55 |
+| e:\F_Backup\leetcode\lc2\2.badSolution.cpp              | C++      |         80 |         21 |          2 |        103 |
+| e:\F_Backup\leetcode\lc2\2.newSolution.cpp              | C++      |         86 |         18 |          3 |        107 |
+| e:\F_Backup\leetcode\lc2\practice.cpp                   | C++      |         70 |         14 |         12 |         96 |
+| e:\F_Backup\leetcode\lc300\dp_n2solution.cpp            | C++      |         27 |         17 |          2 |         46 |
+| e:\F_Backup\leetcode\lc300\nlogn.cpp                    | C++      |         37 |         16 |          2 |         55 |
+| e:\F_Backup\leetcode\lc347\Min-Heap.cpp                 | C++      |         34 |          3 |          0 |         37 |
+| e:\F_Backup\leetcode\lc347\hashBucketSort.cpp           | C++      |         36 |          2 |          1 |         39 |
+| e:\F_Backup\leetcode\lc38.cpp                           | C++      |         29 |          0 |          0 |         29 |
+| e:\F_Backup\leetcode\lc3\2pointer+hashbucket.cpp        | C++      |         29 |         10 |          0 |         39 |
+| e:\F_Backup\leetcode\lc3\2pointer+hashmap.cpp           | C++      |         33 |          7 |          1 |         41 |
+| e:\F_Backup\leetcode\lc4.cpp                            | C++      |         75 |          8 |          1 |         84 |
+| e:\F_Backup\leetcode\lc40\lc40.dp.cpp                   | C++      |         20 |          0 |          2 |         22 |
+| e:\F_Backup\leetcode\lc40\lc40.n2.cpp                   | C++      |         20 |          0 |          0 |         20 |
+| e:\F_Backup\leetcode\lc40\lc40.stack.cpp                | C++      |         21 |          6 |          0 |         27 |
+| e:\F_Backup\leetcode\lc40\stack.sample.cpp              | C++      |         26 |          4 |          2 |         32 |
+| e:\F_Backup\leetcode\lc494\01package.cpp                | C++      |          9 |          0 |          0 |          9 |
+| e:\F_Backup\leetcode\lc494\dfsBruteForce.cpp            | C++      |         15 |          1 |          0 |         16 |
+| e:\F_Backup\leetcode\lc5.cpp                            | C++      |         28 |          4 |          0 |         32 |
+| e:\F_Backup\leetcode\lc557.cpp                          | C++      |         35 |          1 |          0 |         36 |
+| e:\F_Backup\leetcode\lc65.cpp                           | C++      |         49 |          3 |          1 |         53 |
+| e:\F_Backup\leetcode\lc7.cpp                            | C++      |         25 |          3 |          0 |         28 |
+| e:\F_Backup\leetcode\lc72\lc72.cpp                      | C++      |         30 |          5 |          0 |         35 |
+| e:\F_Backup\leetcode\lc74.cpp                           | C++      |         25 |          0 |          1 |         26 |
+| e:\F_Backup\leetcode\lc8.cpp                            | C++      |         42 |          8 |          0 |         50 |
+| e:\F_Backup\leetcode\lc887\method2.cpp                  | C++      |         25 |         10 |          2 |         37 |
+| e:\F_Backup\leetcode\lib\general.h                      | C++      |         30 |          0 |          2 |         32 |
+| e:\F_Backup\leetcode\linkedListTemplate.cpp             | C++      |         50 |         13 |          4 |         67 |
+| e:\F_Backup\leetcode\nkSeqMaintainance.cpp              | C++      |         24 |          0 |          0 |         24 |
+| e:\F_Backup\leetcode\tencentInterview\reverseNumber.cpp | C++      |         14 |          1 |          0 |         15 |
+| e:\F_Backup\leetcode\tests\19.删除链表的倒数第n个节点.java         | Java     |         33 |         11 |          4 |         48 |
+| e:\F_Backup\leetcode\tests\cpptest.cpp                  | C++      |          8 |          0 |          0 |          8 |
+| e:\F_Backup\leetcode\tests\testPair.cpp                 | C++      |         10 |          1 |          2 |         13 |
+| e:\F_Backup\leetcode\tests\unorderedmap_test.cpp        | C++      |          4 |          0 |          0 |          4 |
+| e:\F_Backup\leetcode\treeTraverse.cpp                   | C++      |        175 |         19 |          7 |        201 |
+| e:\F_Backup\leetcode\tx\tx1.cpp                         | C++      |         62 |          1 |          0 |         63 |
+| e:\F_Backup\leetcode\tx\tx2.cpp                         | C++      |         44 |          9 |          3 |         56 |
+| e:\F_Backup\leetcode\单调栈\496.下一个更大元素-i.cpp              | C++      |         24 |          8 |          4 |         36 |
+| e:\F_Backup\leetcode\单调栈\503.下一个更大元素-ii.cpp             | C++      |         35 |         10 |          4 |         49 |
+| e:\F_Backup\leetcode\单调栈\556.下一个更大元素-iii.cpp            | C++      |         78 |         11 |          3 |         92 |
+| e:\F_Backup\leetcode\单调栈\tx2.cpp                        | C++      |         44 |          9 |          3 |         56 |
+| Total                                                   |          |      3,094 |        533 |        160 |      3,787 |
++---------------------------------------------------------+----------+------------+------------+------------+------------+
