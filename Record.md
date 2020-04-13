@@ -28,7 +28,7 @@ https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/soluti
 - [X] lc38
 - [ ] 小顶堆pop push `lc215/mySelf.cpp`     `./MaxHeap.cpp`
 - [ ] lc111 深度优先+迭代 以及 宽度优先+迭代
-- [ ] jz30 解法2 和 3
+- [ ] jz30 解法2 和 3 （解法2和3没有考虑元素相同的情况，不过思路挺好的，一开始我也是直接stack+int成员变量，一直没想到怎么存，学到了）
 
 https://leetcode-cn.com/problems/number-of-atoms/ 应该是递归或者递归模拟栈, 大写字母是元素开头, 数字是结尾
 
@@ -61,6 +61,7 @@ n&(n-1)==0 优先计算等号, 需要在左边加括号才能有预期行为
 
 vector.push_back 放进去的是参数的拷贝，这个特性很重要
 
+统计代码行数：https://www.cnblogs.com/leeke98/p/10273901.html
 
 >vector::void push_back (const value_type& val);
 >

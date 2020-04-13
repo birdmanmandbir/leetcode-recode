@@ -11,7 +11,7 @@ int lengthOfLongestSubstring(string s)
     int b = 0;
     int n = s.size();
     int max_length(0);
-    unordered_map<char, int> map;
+    unordered_map<char, int> map; // char: position
     while (a < n && b < n)
     {
         if (map.find(s[b]) == map.end() || map[s[b]] < a)
