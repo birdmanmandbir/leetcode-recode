@@ -1,4 +1,5 @@
 #include "lib/general.h"
+// https://leetcode-cn.com/problems/design-twitter/solution/mian-xiang-dui-xiang-she-ji-he-bing-k-ge-you-xu-li/
 static int curTime = 0;
 class Tweet {
 public:
@@ -21,6 +22,7 @@ public:
     {
         userId = id;
         follow(id);
+        tweets = NULL;
     }
     void follow(int id)
     {
@@ -45,14 +47,14 @@ public:
 class Twitter {
 private:
     unordered_map<int, User*> userMap;
-    struct cmp{
-        bool operator()(Tweet* a, Tweet* b){
-
+    struct cmp {
+        bool operator()(Tweet* a, Tweet* b)
+        {
+            return a->timeStamp < b->timeStamp;
         }
     };
+
 public:
-
-
     /** Initialize your data structure here. */
     Twitter()
     {
@@ -66,11 +68,44 @@ public:
         }
         userMap[userId]->postTweet(tweetId);
     }
-
+    void myPush(
+        priority_queue<Tweet*, vector<Tweet*>, cmp>& pq,
+        Tweet* tweets)
+    {
+        if (tweets != NULL){
+            pq.push(tweets);
+        }
+        // if (pq.size() < 10) {
+        //     if (tweets != NULL)
+        //         pq.push(tweets);
+        // } else {
+        //     if (tweets != NULL && pq.top()->timeStamp < tweets->timeStamp) {
+        //         pq.pop();
+        //         pq.push(tweets);
+        //     }
+        // }
+    }
     /** Retrieve the 10 most recent tweet ids in the user's news feed. Each item in the news feed must be posted by users who the user followed or by the user herself. Tweets must be ordered from most recent to least recent. */
     vector<int> getNewsFeed(int userId)
     {
-        return vector<int>();
+        priority_queue<Tweet*, vector<Tweet*>, cmp> pq;
+        vector<int> res;
+        if (userMap.find(userId) == userMap.end()){
+            return res;
+        }
+        set<int> userIDs = userMap[userId]->followers;
+        for (auto id : userIDs) {
+            User* tmp = userMap[id];
+            myPush(pq, tmp->tweets);
+        }
+        // 由于vector已经保证输出个数，而且要求输出顺序为从大到小，所以需要用最大堆
+        while (res.size() < 10 && !pq.empty()) {
+            Tweet* cur = pq.top();
+            res.push_back(cur->tweetId);
+            myPush(pq, cur->next);
+            pq.pop();
+        }
+        return res;
     }
 
     /** Follower follows a followee. If the operation is invalid, it should be a no-op. */
@@ -103,3 +138,17 @@ public:
  * obj->follow(followerId,followeeId);
  * obj->unfollow(followerId,followeeId);
  */
+
+int main(){
+    Twitter tw = Twitter();
+    tw.postTweet(1, 5);
+    tw.getNewsFeed(1);
+    tw.follow(1,2);
+    tw.postTweet(2, 6);
+    tw.postTweet(2, 7);
+    tw.postTweet(2, 8);
+    tw.getNewsFeed(1);
+    tw.unfollow(1,2);
+    tw.getNewsFeed(1);
+
+}
