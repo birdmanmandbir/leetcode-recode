@@ -2,7 +2,9 @@
 #include <string>
 #include <vector>
 #include <set>
+#include <list>
 #include <math.h>
+#include <map>
 #include <unordered_map>
 #include <queue>
 #include <stdlib.h>
