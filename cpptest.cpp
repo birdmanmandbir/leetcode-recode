@@ -1,3 +1,4 @@
+#include "lib/general.h"
 #include <iostream>
 #include <math.h>
 #include <string>
@@ -16,10 +17,11 @@ int main()
     cout << pow(10, 3) << "\n";
     cout << 123 << "\n";
     cout << -1 % 5 << endl;
-    // vector<int> x={1,2};
+    vector<int> x={1,2};
     // cout<<*x.end()<<endl;
     // pair<int, int> a = { 1, 2 };
     // pair<int, int> b = { 1, 2 };
     // cout << (a + b).first << endl;
     cout << abs(-1) << endl;
+    cout << (*x.begin()) << "x begin" << endl;
 }
