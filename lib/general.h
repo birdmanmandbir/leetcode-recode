@@ -9,6 +9,7 @@
 #include <queue>
 #include <stdlib.h>
 #include <string.h>
+#include <algorithm>
 #include <iostream>
 using namespace std;
 
