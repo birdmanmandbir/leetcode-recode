@@ -1,4 +1,4 @@
-#include "../lib/general.h"
+#include "/home/neil/Codes/leetcode/lib/general.h"
 class Solution {
 public:
     int cuttingRope(int n)
