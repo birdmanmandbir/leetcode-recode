@@ -63,6 +63,8 @@ vector.push_back 放进去的是参数的拷贝，这个特性很重要
 
 统计代码行数：https://www.cnblogs.com/leeke98/p/10273901.html
 
+`^b*[^:b#/]+.*$` 搜索正则表达式即可
+
 >vector::void push_back (const value_type& val);
 >
 >vector::void push_back (value_type&& val);
