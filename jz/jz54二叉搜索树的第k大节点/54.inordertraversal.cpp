@@ -1,3 +1,5 @@
+#include "/home/neil/Codes/leetcode/lib/general.h"
+
 class Solution {
 public:
     // 二叉搜索树左节点小于根， 右节点大于根

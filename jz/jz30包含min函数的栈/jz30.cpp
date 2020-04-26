@@ -1,4 +1,5 @@
-#include "lib/general.h"
+#include "/home/neil/Codes/leetcode/lib/general.h"
+
 // https://leetcode-cn.com/problems/min-stack/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-38/
 class MinStack {
 public:

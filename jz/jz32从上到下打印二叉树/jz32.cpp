@@ -1,4 +1,5 @@
-#include "lib/general.h"
+#include "/home/neil/Codes/leetcode/lib/general.h"
+
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
