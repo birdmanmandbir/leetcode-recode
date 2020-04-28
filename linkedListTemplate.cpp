@@ -1,6 +1,5 @@
-#include <string>
-#include <math.h>
-#include <iostream>
+#include "/home/neil/Codes/leetcode/lib/general.h"
+
 using namespace std;
 struct ListNode
 {
@@ -31,7 +30,7 @@ public:
     }
 };
 // @lc code=end
-ListNode *getLinkedList(int *a, int n)
+ListNode *getLinkedList(vector<int> a, int n)
 {
     ListNode *head = new ListNode(-1);
     ListNode *tmp = head;
