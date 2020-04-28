@@ -37,8 +37,7 @@ public:
         {
             if (cache.size() + 1 > _cap)
             {
-                // map 是记录cache的信息, 所以删除时候先删map
-                // ??? front, back, begin, end
+                // 由于pop back会销毁back的iterator，有依赖关系，所以要先erase map
                 map.erase(cache.back().first);
                 cache.pop_back();
             }
