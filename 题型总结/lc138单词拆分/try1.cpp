@@ -5,7 +5,4 @@ public:
     bool wordBreak(string s, vector<string>& wordDict) {
 
     }
-    bool dfs(string &s, vector<string>& wordDict, int beginOfWordDict, int beginOfS){
-        if ()
-    }
 };
