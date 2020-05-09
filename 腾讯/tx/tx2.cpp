@@ -6,6 +6,8 @@ void printArray(int*, int);
 // 腾讯2020校园招聘-后台
 // record: 一开始只通过60%测试样例, 对比其他人的代码后发现是边界没有处理,
 // 对于相同高度的楼一样按看不到处理
+// @单调栈
+// 两个单调栈，方向不同
 void getResult(int* a, int* b, int n){
     // 自顶向下递增, 应从右往左看
     int front[n];
