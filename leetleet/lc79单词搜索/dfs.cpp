@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-// @深度优先搜索
+// @回溯算法
 class Solution {
 public:
     // https://leetcode-cn.com/problems/word-search/solution/cdfsdi-gui-hui-su-by-lorwin/

@@ -3,6 +3,8 @@
 #include <iostream>
 using namespace std;
 #include <unordered_map>
+// @单调栈
+
 // 观察数字的结构很重要
 /*
  * @lc app=leetcode.cn id=556 lang=cpp

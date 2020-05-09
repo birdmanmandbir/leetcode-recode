@@ -1,4 +1,5 @@
 // https://leetcode-cn.com/problems/word-break/solution/139-by-ikaruga/
+// @动态规划
 #include <bits/stdc++.h>
 using namespace std;
 class Solution {
